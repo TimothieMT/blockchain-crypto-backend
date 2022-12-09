@@ -4,7 +4,7 @@ import cors from 'cors'
 
 const app = express()
 app.use(cors())
-const port = 3011;
+const port = 3000;
 
 type Coin = {
     image: string
