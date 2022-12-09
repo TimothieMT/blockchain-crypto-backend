@@ -3,7 +3,7 @@ import axios from 'axios';
 import cors from 'cors';
 const app = express();
 app.use(cors());
-const port = 3011;
+const port = process.env.PORT || 3000;
 const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd';
 const options = {
     method: 'GET',
