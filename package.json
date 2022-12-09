@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"type": "module",
-	"main": "server.js",
+	"main": "index.js",
 	"scripts": {
 		"startold": "npm run build && nodemon dist/server.js",
 		"start": "node server.js",
