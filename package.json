@@ -1,25 +1,29 @@
 {
-	"name": "node-express",
+	"name": "et002-ssr-web-ts-es6",
 	"version": "1.0.0",
-	"description": "Node Express Examples",
-	"main": "index.js",
+	"description": "",
+	"type": "module",
+	"main": "server.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon index.js"
+		"startold": "npm run build && nodemon dist/server.js",
+		"start": "node server.ts",
+		"build": "tsc"
 	},
-	"author": "Timothie",
+	"keywords": [],
+	"author": "",
 	"license": "ISC",
+	"devDependencies": {
+		"@types/lodash-es": "^4.17.6",
+		"@types/node": "^18.11.10",
+		"nodemon": "^2.0.20",
+		"typescript": "^4.9.3"
+	},
 	"dependencies": {
-		"await": "^0.2.6",
-		"axios": "^1.2.1",
-		"body-parser": "^1.19.0",
+		"axios": "^1.2.0",
 		"cors": "^2.8.5",
 		"express": "^4.18.2",
-		"http": "0.0.0",
-		"morgan": "^1.10.0",
-		"node": "^19.2.0"
-	},
-	"devDependencies": {
-		"nodemon": "^2.0.2"
+		"lodash-es": "^4.17.21",
+		"node-fetch": "^3.3.0",
+		"unirest": "^0.6.0"
 	}
 }

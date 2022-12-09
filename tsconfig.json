@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"module": "System",
+		"module": "NodeNext",
 		"moduleResolution": "NodeNext",
 		"target": "ES2022",
 		"sourceMap": true,
