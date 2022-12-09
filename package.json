@@ -5,9 +5,9 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "nodemon index.js"
+		"start": "nodemon index.ts"
 	},
-	"author": "Shilpa Kancharla",
+	"author": "Timothie",
 	"license": "ISC",
 	"dependencies": {
 		"await": "^0.2.6",
