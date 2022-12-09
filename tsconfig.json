@@ -1,8 +1,8 @@
 {
 	"compilerOptions": {
-		"module": "NodeNext",
+		"module": "System",
 		"moduleResolution": "NodeNext",
-		"target": "ES2020",
+		"target": "ES2022",
 		"sourceMap": true,
 		"outDir": "dist",
 	},
